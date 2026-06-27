@@ -74,41 +74,27 @@ Smart India Hackathon 2024 Selection
 
 **Backend**
 <p align="left">
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></a> &nbsp;
-  <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg" alt="django" width="40" height="40"/></a>
+  <img src="https://skillicons.dev/icons?i=py,django,spring&theme=dark" />
 </p>
 
 **Frontend**
 <p align="left">
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a> &nbsp;
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/></a> &nbsp;
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="html5" width="40" height="40"/></a> &nbsp;
-  <a href="https://www.w3.org/css/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="css3" width="40" height="40"/></a>
+  <img src="https://skillicons.dev/icons?i=js,react,html,css&theme=dark" />
 </p>
 
 **Database**
 <p align="left">
-  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="mongodb" width="40" height="40"/></a> &nbsp;
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="mysql" width="40" height="40"/></a>
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql&theme=dark" />
 </p>
 
 **Cloud & DevOps**
 <p align="left">
-  <a href="https://aws.amazon.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/></a> &nbsp;
-  <a href="https://cloud.google.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg" alt="google cloud" width="40" height="40"/></a> &nbsp;
-  <a href="https://www.cloudflare.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cloudflare/cloudflare-original.svg" alt="cloudflare" width="40" height="40"/></a> &nbsp;
-  <a href="https://www.linux.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/></a>
+  <img src="https://skillicons.dev/icons?i=aws,gcp,cloudflare,linux&theme=dark" />
 </p>
 
 **Tools**
 <p align="left">
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="40" height="40"/></a> &nbsp;
-  <a href="https://github.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="github" width="40" height="40"/></a> &nbsp;
-  <a href="https://www.postman.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg" alt="postman" width="40" height="40"/></a> &nbsp;
-  <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vscode" width="40" height="40"/></a> &nbsp;
-  <a href="https://www.jetbrains.com/idea/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/intellij/intellij-original.svg" alt="intellij" width="40" height="40"/></a> &nbsp;
-  <a href="https://www.jetbrains.com/pycharm/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pycharm/pycharm-original.svg" alt="pycharm" width="40" height="40"/></a> &nbsp;
-  <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" alt="figma" width="40" height="40"/></a>
+  <img src="https://skillicons.dev/icons?i=git,github,postman,vscode,idea,pycharm,figma&theme=dark" />
 </p>
 
 ---
