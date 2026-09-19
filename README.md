@@ -7,7 +7,8 @@
   <a href="https://github.com/Ansh-gupta-07">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=2196F3&center=true&vCenter=true&width=600&lines=B.Tech+CSE+Student;Frontend-Leaning+Full-Stack+Developer;Building+secure,+real-world+systems" alt="Typing SVG" />
   </a>
-  
+
+  <br>
   <br>
 
   <p align="center">
