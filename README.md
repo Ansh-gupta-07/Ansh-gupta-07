@@ -9,7 +9,6 @@
   </a>
 
   <br>
-  <br>
 
   <p align="center">
     <img src="https://img.shields.io/badge/Status-Building%20Solutions-2EA043?style=for-the-badge" alt="Status" />
