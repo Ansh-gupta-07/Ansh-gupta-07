@@ -1,5 +1,9 @@
 <h1 align="center">Hi 👋, I'm Ansh Gupta</h1>
-<h3 align="center">B.Tech CSE Student • Frontend-Leaning Full-Stack Developer • Building secure, real-world systems</h3>
+<p align="center">
+  <a href="https://github.com/Ansh-gupta-07">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=2196F3&center=true&vCenter=true&width=600&lines=B.Tech+CSE+Student;Frontend-Leaning+Full-Stack+Developer;Building+secure,+real-world+systems" alt="Typing SVG" />
+  </a>
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Building%20Solutions-brightgreen?style=flat-square" alt="Status" />
@@ -55,6 +59,18 @@
 
 <sub>Generated automatically every day by <a href="https://github.com/abozanona/pacman-contribution-graph">abozanona/pacman-contribution-graph</a> — see setup notes below.</sub>
 
+### 🐍 GitHub Contribution Snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ansh-gupta-07/Ansh-gupta-07/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ansh-gupta-07/Ansh-gupta-07/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Snake" src="https://raw.githubusercontent.com/Ansh-gupta-07/Ansh-gupta-07/output/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
+
+<sub>Generated automatically every day by <a href="https://github.com/Platane/snk">Platane/snk</a>.</sub>
+
 ---
 
 ### 🌟 Featured Projects
@@ -100,6 +116,12 @@ Smart India Hackathon 2024 Selection
 ---
 
 ### 📊 Performance Ecosystem
+
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=Ansh-gupta-07&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15" alt="Ansh-gupta-07 Trophies" />
+  </a>
+</p>
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ansh-gupta-07&theme=tokyonight" alt="Profile details" width="48%" />
