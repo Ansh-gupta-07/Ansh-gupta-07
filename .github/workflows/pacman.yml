@@ -1,0 +1,53 @@
+name: Generate Pac-Man Animation
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Generate Pac-Man SVGs
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+
+      - name: Rename and prepare files for output branch
+        run: |
+          # The action generates dist/pacman.svg by default. 
+          # We need to copy it to match the README filenames.
+          if [ -f "dist/pacman.svg" ]; then
+            cp dist/pacman.svg dist/pacman-contribution-graph.svg
+            cp dist/pacman.svg dist/pacman-contribution-graph-dark.svg
+          elif [ -f "pacman.svg" ]; then
+            mkdir -p dist
+            cp pacman.svg dist/pacman-contribution-graph.svg
+            cp pacman.svg dist/pacman-contribution-graph-dark.svg
+          else
+            # Try to find any SVG it might have generated
+            SVG_FILE=$(find . -name "*.svg" | head -n 1)
+            if [ -n "$SVG_FILE" ]; then
+              mkdir -p dist
+              cp "$SVG_FILE" dist/pacman-contribution-graph.svg
+              cp "$SVG_FILE" dist/pacman-contribution-graph-dark.svg
+            fi
+          fi
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
