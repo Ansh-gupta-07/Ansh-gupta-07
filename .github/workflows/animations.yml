@@ -30,6 +30,29 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Generate Pac-Man SVGs
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+
+      - name: Rename Pac-Man files
+        run: |
+          if [ -f "dist/pacman.svg" ]; then
+            cp dist/pacman.svg dist/pacman-contribution-graph.svg
+            cp dist/pacman.svg dist/pacman-contribution-graph-dark.svg
+          elif [ -f "pacman.svg" ]; then
+            mkdir -p dist
+            cp pacman.svg dist/pacman-contribution-graph.svg
+            cp pacman.svg dist/pacman-contribution-graph-dark.svg
+          else
+            SVG_FILE=$(find . -name "*.svg" | grep -v "dist/" | head -n 1)
+            if [ -n "$SVG_FILE" ]; then
+              mkdir -p dist
+              cp "$SVG_FILE" dist/pacman-contribution-graph.svg
+              cp "$SVG_FILE" dist/pacman-contribution-graph-dark.svg
+            fi
+          fi
+
       - name: Generate trophy card
         uses: soulteary/github-profile-trophy-action@v1.0.0
         with:
