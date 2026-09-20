@@ -67,7 +67,7 @@
 
 <div align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=Ansh-gupta-07&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15" alt="Ansh-gupta-07 Trophies" />
+    <img src="https://raw.githubusercontent.com/Ansh-gupta-07/Ansh-gupta-07/output/trophy.svg" alt="Ansh-gupta-07 Trophies" />
   </a>
 </div>
 
