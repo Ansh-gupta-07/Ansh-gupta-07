@@ -1,34 +1,22 @@
-name: Generate GitHub Snake
+name: Generate Pac-Man Animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # every 12 hours
+    - cron: "0 */12 * * *"
   workflow_dispatch:
   push:
     branches:
       - main
-      - master
 
 jobs:
   generate:
-    permissions:
-      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 10
-
+    permissions:
+      contents: write
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
-
-      - name: Generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate Pac-Man SVGs
         uses: abozanona/pacman-contribution-graph@main
@@ -37,6 +25,8 @@ jobs:
 
       - name: Rename and prepare files for output branch
         run: |
+          # The action generates dist/pacman.svg by default. 
+          # We need to copy it to match the README filenames.
           if [ -f "dist/pacman.svg" ]; then
             cp dist/pacman.svg dist/pacman-contribution-graph.svg
             cp dist/pacman.svg dist/pacman-contribution-graph-dark.svg
@@ -45,7 +35,8 @@ jobs:
             cp pacman.svg dist/pacman-contribution-graph.svg
             cp pacman.svg dist/pacman-contribution-graph-dark.svg
           else
-            SVG_FILE=$(find . -name "*.svg" | grep -v "dist/" | head -n 1)
+            # Try to find any SVG it might have generated
+            SVG_FILE=$(find . -name "*.svg" | head -n 1)
             if [ -n "$SVG_FILE" ]; then
               mkdir -p dist
               cp "$SVG_FILE" dist/pacman-contribution-graph.svg
