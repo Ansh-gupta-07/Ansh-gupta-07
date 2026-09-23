@@ -30,7 +30,7 @@
   <h2>👨‍💻 About Me</h2>
 </div>
 
-* 🎓 3rd-year **B.Tech in Computer Science & Engineering** at Uttaranchal University, Dehradun (2023–2027)
+* 🎓 4th-year **B.Tech in Computer Science & Engineering** at Uttaranchal University, Dehradun (2023–2027)
 * 💻 Frontend-leaning full-stack developer — **React.js**, **Django REST Framework**, **Python**, **JavaScript**
 * 🔐 Into application security — **JWT**, **OAuth**, and encryption (**AES-256-GCM**, **ChaCha20-Poly1305**)
 * 🚀 Building **DevSync**, a React + DRF team-matching platform with 150+ active users and JWT/OAuth-secured ERP integration
