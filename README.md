@@ -8,7 +8,7 @@
 <p>
   <a href="https://the-ansh-experience.onrender.com/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-Visit-0A66C2?style=flat-square&logo=googlechrome&logoColor=white"></a>
   <a href="https://linkedin.com/in/ansh-gupta-406381294"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:anshgupta3117@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-Say_hello-40566D?style=flat-square&logo=gmail&logoColor=white"></a>
+  <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=anshgupta3117%40gmail.com"><img alt="Email — Say hello" src="https://img.shields.io/badge/Email-Say_hello-40566D?style=flat-square&amp;logo=gmail&amp;logoColor=white"></a>
   <img alt="Open to internships and full-time roles" src="https://img.shields.io/badge/Open_to-Internships_%26_Full--time-168A78?style=flat-square">
 </p>
 
