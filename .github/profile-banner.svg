@@ -1,31 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="370" viewBox="0 0 1200 370" fill="none">
   <defs>
-    <linearGradient id="background" x1="40" y1="20" x2="1160" y2="320" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#101B2D"/>
-      <stop offset="0.58" stop-color="#14263A"/>
-      <stop offset="1" stop-color="#123B43"/>
+    <linearGradient id="bg" x1="30" y1="20" x2="1170" y2="355" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101A2B"/>
+      <stop offset="0.58" stop-color="#142A3C"/>
+      <stop offset="1" stop-color="#123C43"/>
     </linearGradient>
-    <linearGradient id="accent" x1="820" y1="34" x2="1120" y2="285" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#78E0CC" stop-opacity="0.72"/>
-      <stop offset="1" stop-color="#4B8DFF" stop-opacity="0.12"/>
+    <linearGradient id="glow" x1="795" y1="51" x2="1139" y2="310" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#61DAC2" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#5598FF" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="724" y1="68" x2="1120" y2="306" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B6E8DD" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#A2BFE0" stop-opacity="0.1"/>
     </linearGradient>
     <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" stroke="#C5D7EA" stroke-opacity="0.055"/>
+      <path d="M36 0H0V36" stroke="#D5E5F4" stroke-opacity="0.045"/>
     </pattern>
-    <filter id="blur" x="770" y="-10" width="490" height="360" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+    <filter id="softGlow" x="719" y="-8" width="548" height="385" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
       <feGaussianBlur stdDeviation="42"/>
     </filter>
   </defs>
-  <rect width="1200" height="320" rx="24" fill="url(#background)"/>
-  <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
-  <ellipse cx="1000" cy="148" rx="170" ry="118" fill="url(#accent)" filter="url(#blur)"/>
-  <circle cx="1054" cy="42" r="174" stroke="#A7E8DE" stroke-opacity="0.16"/>
-  <circle cx="1054" cy="42" r="128" stroke="#A7E8DE" stroke-opacity="0.12"/>
-  <circle cx="1054" cy="42" r="82" stroke="#A7E8DE" stroke-opacity="0.1"/>
-  <path d="M0 277C176 231 304 307 480 268C635 234 730 202 850 224" stroke="#78E0CC" stroke-opacity="0.16" stroke-width="2"/>
-  <rect x="72" y="70" width="6" height="22" rx="3" fill="#78E0CC"/>
-  <text x="96" y="87" fill="#A9C2D8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="600" letter-spacing="2.4">FULL-STACK DEVELOPMENT  ·  APPLICATION SECURITY</text>
-  <text x="70" y="169" fill="#F4F8FC" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="54" font-weight="700" letter-spacing="-1.8">Ansh Gupta</text>
-  <text x="73" y="211" fill="#C0D0E0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="20">Building useful products with thoughtful security.</text>
-  <text x="73" y="270" fill="#8FA8BF" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" letter-spacing="0.5">UTTARANCHAL UNIVERSITY  ·  COMPUTER SCIENCE  ·  2023—2027</text>
+  <rect width="1200" height="370" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="370" rx="24" fill="url(#grid)"/>
+  <ellipse cx="989" cy="158" rx="188" ry="143" fill="url(#glow)" filter="url(#softGlow)"/>
+  <circle cx="1070" cy="38" r="201" stroke="#9ADDCF" stroke-opacity="0.1"/>
+  <circle cx="1070" cy="38" r="151" stroke="#9ADDCF" stroke-opacity="0.09"/>
+  <circle cx="1070" cy="38" r="101" stroke="#9ADDCF" stroke-opacity="0.07"/>
+  <path d="M0 332C178 280 300 351 470 309C566 285 644 257 718 263" stroke="#75DCC6" stroke-opacity="0.15" stroke-width="2"/>
+
+  <rect x="72" y="57" width="365" height="31" rx="15.5" fill="#E2F3F5" fill-opacity="0.07" stroke="#C8E8E6" stroke-opacity="0.1"/>
+  <circle cx="91" cy="72.5" r="4" fill="#72DFC4"/>
+  <text x="105" y="77" fill="#B9CDD9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="600" letter-spacing="1.5">FULL-STACK ENGINEERING  /  APP SECURITY</text>
+  <text x="70" y="163" fill="#F4F8FC" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="60" font-weight="700" letter-spacing="-2">Ansh Gupta</text>
+  <text x="74" y="203" fill="#D1E0EA" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="21">Thoughtful interfaces. Secure foundations.</text>
+  <path d="M74 239H106" stroke="#74DDC6" stroke-width="3" stroke-linecap="round"/>
+  <text x="74" y="274" fill="#91A9BC" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="600" letter-spacing="1">COMPUTER SCIENCE  ·  UTTARANCHAL UNIVERSITY  ·  2023—2027</text>
+
+  <rect x="680" y="54" width="452" height="260" rx="15" fill="#0B1522" fill-opacity="0.82" stroke="url(#edge)"/>
+  <path d="M680.5 95H1131.5" stroke="#B6D2E1" stroke-opacity="0.13"/>
+  <circle cx="706" cy="75" r="4" fill="#F27878" fill-opacity="0.9"/>
+  <circle cx="722" cy="75" r="4" fill="#EBC878" fill-opacity="0.9"/>
+  <circle cx="738" cy="75" r="4" fill="#70D4AD" fill-opacity="0.9"/>
+  <text x="761" y="79" fill="#879EB0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">~/ansh / profile</text>
+
+  <text x="711" y="129" fill="#8097AA" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="600">01</text>
+  <text x="746" y="129" fill="#C7A7F5" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">const</text>
+  <text x="791" y="129" fill="#A8D9FF" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">approach</text>
+  <text x="865" y="129" fill="#D4DEE8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">= {</text>
+
+  <text x="711" y="158" fill="#8097AA" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="600">02</text>
+  <text x="746" y="158" fill="#88D9B8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">build</text>
+  <text x="794" y="158" fill="#D4DEE8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">:</text>
+  <text x="813" y="158" fill="#F1C784" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">"useful products"</text>
+
+  <text x="711" y="187" fill="#8097AA" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="600">03</text>
+  <text x="746" y="187" fill="#88D9B8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">secure</text>
+  <text x="800" y="187" fill="#D4DEE8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">:</text>
+  <text x="819" y="187" fill="#F1C784" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">"by default"</text>
+
+  <text x="711" y="216" fill="#8097AA" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="600">04</text>
+  <text x="746" y="216" fill="#88D9B8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">ship</text>
+  <text x="784" y="216" fill="#D4DEE8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">:</text>
+  <text x="803" y="216" fill="#F1C784" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">"with care"</text>
+  <text x="711" y="245" fill="#8097AA" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="600">05</text>
+  <text x="746" y="245" fill="#D4DEE8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">};</text>
+
+  <rect x="704" y="267" width="404" height="31" rx="7" fill="#15342F"/>
+  <circle cx="721" cy="282.5" r="4" fill="#69DDBB"/>
+  <text x="735" y="287" fill="#9FE5D0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="600" letter-spacing="0.8">OPEN TO FRONTEND OPPORTUNITIES</text>
 </svg>
