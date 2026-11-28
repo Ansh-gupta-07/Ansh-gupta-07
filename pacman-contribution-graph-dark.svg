@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" fill="none">
+  <defs>
+    <linearGradient id="base" x1="30" y1="8" x2="1172" y2="382" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101A2A"/>
+      <stop offset="0.58" stop-color="#14263A"/>
+      <stop offset="1" stop-color="#153B43"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="850" y1="91" x2="1061" y2="329" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#54DCC2" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#669CFF" stop-opacity="0.07"/>
+    </linearGradient>
+    <radialGradient id="aura" cx="0" cy="0" r="1" gradientTransform="matrix(212 0 0 183 985 197)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4ED9C1" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#4ED9C1" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#DCE9F4" stroke-opacity="0.04"/>
+    </pattern>
+    <filter id="shadow" x="837" y="70" width="278" height="304" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="15" stdDeviation="16" flood-color="#020813" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="390" rx="26" fill="url(#base)"/>
+  <rect width="1200" height="390" rx="26" fill="url(#grid)"/>
+  <rect width="1200" height="390" rx="26" fill="url(#aura)"/>
+
+  <path d="M0 341C188 300 311 359 476 326C573 307 632 282 716 289" stroke="#65DCC5" stroke-opacity="0.14" stroke-width="2"/>
+  <path d="M72 307H242" stroke="#6BDBC4" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="72" cy="307" r="5" fill="#6BDBC4"/>
+
+  <rect x="72" y="60" width="396" height="32" rx="16" fill="#DFF4F1" fill-opacity="0.07" stroke="#C0E6E2" stroke-opacity="0.13"/>
+  <circle cx="91" cy="76" r="4" fill="#6FE0C6"/>
+  <text x="106" y="80.5" fill="#B9CCD9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="600" letter-spacing="1.45">FULL-STACK DEVELOPMENT  ·  APPLICATION SECURITY</text>
+  <text x="68" y="177" fill="#F5F8FC" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="64" font-weight="700" letter-spacing="-2.2">Ansh Gupta</text>
+  <text x="73" y="222" fill="#D2DFE9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22">Thoughtful products. Secure foundations.</text>
+  <text x="73" y="275" fill="#8EA5B9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="600" letter-spacing="1">COMPUTER SCIENCE  ·  UTTARANCHAL UNIVERSITY  ·  2023—2027</text>
+
+  <circle cx="978" cy="196" r="175" stroke="#99E4D7" stroke-opacity="0.08"/>
+  <circle cx="978" cy="196" r="139" stroke="#99E4D7" stroke-opacity="0.1" stroke-dasharray="2 9"/>
+  <circle cx="978" cy="196" r="103" stroke="#99E4D7" stroke-opacity="0.12"/>
+
+  <g filter="url(#shadow)">
+    <path d="M978 82L1080 122V205C1080 264 1037 310 978 337C919 310 876 264 876 205V122L978 82Z" fill="url(#shield)" stroke="#83DFCE" stroke-opacity="0.74" stroke-width="1.5"/>
+    <path d="M978 103L1061 136V204C1061 253 1027 291 978 315C929 291 895 253 895 204V136L978 103Z" stroke="#B9F0E6" stroke-opacity="0.16"/>
+    <path d="M955 190V175C955 162.297 965.297 152 978 152C990.703 152 1001 162.297 1001 175V190" stroke="#A8EADD" stroke-width="8" stroke-linecap="round"/>
+    <rect x="944" y="186" width="68" height="55" rx="13" fill="#75DCC7" fill-opacity="0.9"/>
+    <circle cx="978" cy="207" r="5" fill="#12313A"/>
+    <path d="M978 212V223" stroke="#12313A" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <path d="M860 142H822V118" stroke="#9DDCCE" stroke-opacity="0.48" stroke-width="1.5"/>
+  <circle cx="860" cy="142" r="3" fill="#85E3D0"/>
+  <rect x="735" y="92" width="112" height="52" rx="10" fill="#0B1725" fill-opacity="0.82" stroke="#C0E8E2" stroke-opacity="0.14"/>
+  <circle cx="752" cy="109" r="4" fill="#F0A987"/>
+  <text x="764" y="113" fill="#8FA6B9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="9" font-weight="600" letter-spacing="1">PRODUCT</text>
+  <text x="750" y="132" fill="#D5E2EA" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">Designed to help</text>
+
+  <path d="M1084 257H1121V280" stroke="#9DDCCE" stroke-opacity="0.48" stroke-width="1.5"/>
+  <circle cx="1084" cy="257" r="3" fill="#85E3D0"/>
+  <rect x="1067" y="278" width="104" height="52" rx="10" fill="#0B1725" fill-opacity="0.82" stroke="#C0E8E2" stroke-opacity="0.14"/>
+  <circle cx="1084" cy="295" r="4" fill="#76DDC6"/>
+  <text x="1096" y="299" fill="#8FA6B9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="9" font-weight="600" letter-spacing="1">SECURITY</text>
+  <text x="1082" y="318" fill="#D5E2EA" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12">Built in early</text>
+</svg>
